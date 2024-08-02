@@ -31,6 +31,11 @@
 # COMMAND ----------
 
 # MAGIC %sql
+
+All results
+
+
+
 #select * from bronze.autoloader
 
 All results
