@@ -31,4 +31,6 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select * from bronze.autoloader
+#select * from bronze.autoloader
+
+All results
