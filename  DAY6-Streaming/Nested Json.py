@@ -11,6 +11,10 @@ df.display()
 
 # COMMAND ----------
 
+df.show()
+
+# COMMAND ----------
+
 df1=df.withColumn("batters",explode("batters.batter"))\
 .withColumn("batters_id",col("batters.id"))\
 .withColumn("batters_type",col("batters.type"))\
