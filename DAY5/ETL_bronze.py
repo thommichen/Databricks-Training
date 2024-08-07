@@ -164,4 +164,7 @@ df3.display
 
 # COMMAND ----------
 
+df.display()
+displaying df
+
 ###here we are writing to a table instead of file.actually we donot need merge schema but we are using it here
