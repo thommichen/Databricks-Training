@@ -160,4 +160,8 @@ df3.write.mode("overwrite").option("mergeSchema","true").saveAsTable("richest_br
 
 # COMMAND ----------
 
+df3.display
+
+# COMMAND ----------
+
 ###here we are writing to a table instead of file.actually we donot need merge schema but we are using it here
